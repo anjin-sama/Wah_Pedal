@@ -1,0 +1,2 @@
+Board dimensions: 43 x 80 mm
+Hole for screw: 52, 34 mm (for the long end)
