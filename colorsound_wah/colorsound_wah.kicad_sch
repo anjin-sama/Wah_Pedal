@@ -1617,6 +1617,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Wuerth_450301014042"
 			(pin_names
 				(offset 1)
@@ -2336,6 +2443,12 @@
 		)
 	)
 	(junction
+		(at 129.54 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23bc504a-85fe-4e19-8d2b-4141b8d72fa4")
+	)
+	(junction
 		(at 181.61 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2396,6 +2509,12 @@
 		(uuid "6ad81f00-29b8-43bf-b439-13be11861317")
 	)
 	(junction
+		(at 226.06 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a85ee4d-5bd8-490f-a2bd-049d744acd80")
+	)
+	(junction
 		(at 104.14 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2432,6 +2551,12 @@
 		(uuid "bae26eb5-d702-4b7b-8bfe-f8dbd4888763")
 	)
 	(junction
+		(at 237.49 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d79ec665-88ef-4484-a239-30d52d36c0bc")
+	)
+	(junction
 		(at 153.67 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2444,10 +2569,22 @@
 		(uuid "df93956f-7b76-4d8f-b414-2bc6687db9a7")
 	)
 	(junction
+		(at 170.18 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e04681e5-7a5a-40bd-939d-fe0b84e6ecd8")
+	)
+	(junction
 		(at 110.49 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb7d9b5e-fa38-4efb-9534-dcfb1ae9f6e1")
+	)
+	(junction
+		(at 121.92 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffded030-c17b-4c7b-aa4f-77b76e0be4d8")
 	)
 	(wire
 		(pts
@@ -2621,6 +2758,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 60.96) (xy 226.06 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ffadd5c-6009-4f2a-926a-4c576d8ae348")
+	)
+	(wire
+		(pts
 			(xy 100.33 130.81) (xy 104.14 130.81)
 		)
 		(stroke
@@ -2701,7 +2848,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 130.81) (xy 170.18 138.43)
+			(xy 170.18 130.81) (xy 170.18 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2741,7 +2888,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 53.34) (xy 240.03 53.34)
+			(xy 228.6 53.34) (xy 237.49 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2891,6 +3038,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 53.34) (xy 129.54 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bd06d49-53cc-43b8-a507-5727e05d6907")
+	)
+	(wire
+		(pts
 			(xy 168.91 43.18) (xy 181.61 43.18)
 		)
 		(stroke
@@ -2971,6 +3128,26 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 27.94) (xy 171.45 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3db9ca4-4fb7-4ee9-ae38-c3f2fd1728e2")
+	)
+	(wire
+		(pts
+			(xy 237.49 53.34) (xy 240.03 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5281064-a712-4781-a66c-e159244abae5")
+	)
+	(wire
+		(pts
 			(xy 82.55 128.27) (xy 82.55 118.11)
 		)
 		(stroke
@@ -2991,7 +3168,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 53.34) (xy 129.54 53.34)
+			(xy 120.65 53.34) (xy 121.92 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3071,7 +3248,17 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 55.88) (xy 226.06 62.23)
+			(xy 170.18 137.16) (xy 170.18 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7307896-3cbe-4a4f-b5e4-86192fcb49c1")
+	)
+	(wire
+		(pts
+			(xy 226.06 55.88) (xy 226.06 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3932,6 +4119,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 127 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "218f1b15-990a-4de7-80cf-a74e69e569e5")
+		(property "Reference" "H5"
+			(at 124.4599 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 122.174 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
+			(at 127 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 127 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57683ae3-319d-4bb9-88a3-3d22c40bf147")
+		)
+		(instances
+			(project "colorsound_wah"
+				(path "/9cb7e3b7-fbd3-44b8-a295-062702afe1ab"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_Small")
 		(at 82.55 133.35 0)
 		(unit 1)
@@ -4165,6 +4418,72 @@
 			(project ""
 				(path "/9cb7e3b7-fbd3-44b8-a295-062702afe1ab"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 228.6 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "34d5b0c4-28cd-41f1-94e3-6a0e6a570a65")
+		(property "Reference" "H4"
+			(at 231.1401 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 233.426 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
+			(at 228.6 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 228.6 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e51a5eea-7d8b-4a58-9d7a-afb6d9a5dff8")
+		)
+		(instances
+			(project "colorsound_wah"
+				(path "/9cb7e3b7-fbd3-44b8-a295-062702afe1ab"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -6782,6 +7101,138 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 173.99 27.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e02830ab-ac8e-42dd-b563-0f69b8e97c6c")
+		(property "Reference" "H3"
+			(at 176.5301 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 178.816 15.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
+			(at 173.99 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 173.99 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c0b6640-6317-4494-9ec6-6d4df9e73806")
+		)
+		(instances
+			(project "colorsound_wah"
+				(path "/9cb7e3b7-fbd3-44b8-a295-062702afe1ab"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 237.49 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e861a151-8a7f-411e-8b93-b46c62a4ae9e")
+		(property "Reference" "H2"
+			(at 243.332 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 228.6 43.942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
+			(at 237.49 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 237.49 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f07fe85-1ad6-409e-b90c-d1bbeeb70632")
+		)
+		(instances
+			(project "colorsound_wah"
+				(path "/9cb7e3b7-fbd3-44b8-a295-062702afe1ab"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 168.91 27.94 0)
 		(unit 1)
@@ -7119,6 +7570,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 172.72 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7cc4c48-3dc4-4717-965c-c357669d4137")
+		(property "Reference" "H6"
+			(at 175.2601 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 177.546 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
+			(at 172.72 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 172.72 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6f720c8-b6df-45cd-bb3b-55387e7cc35e")
+		)
+		(instances
+			(project "colorsound_wah"
+				(path "/9cb7e3b7-fbd3-44b8-a295-062702afe1ab"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 152.4 138.43 0)
 		(unit 1)
@@ -7179,6 +7696,72 @@
 			(project "colorsound_wah"
 				(path "/9cb7e3b7-fbd3-44b8-a295-062702afe1ab"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 121.92 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f981aaf4-ba90-44eb-92ef-18038fc985f6")
+		(property "Reference" "H1"
+			(at 124.46 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Input"
+			(at 121.666 45.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
+			(at 121.92 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 121.92 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2dc31ab2-a7fe-4c32-9350-af39023834f4")
+		)
+		(instances
+			(project ""
+				(path "/9cb7e3b7-fbd3-44b8-a295-062702afe1ab"
+					(reference "H1")
 					(unit 1)
 				)
 			)
