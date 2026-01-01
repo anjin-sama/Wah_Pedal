@@ -1,4 +1,4 @@
-26433691852196037
+26447824915903863
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -69145,6 +69145,62 @@ Yellow 5381 Series LED
 0
 2
 2
+LibraryGabi
+CP_Radial_D5.0mm_P2.00mm
+CP, Radial series, Radial, pin pitch=2.00mm, diameter=5mm, height=7mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.00mm diameter 5mm height 7mm Electrolytic Capacitor
+0
+2
+2
+LibraryGabi
+C_Rect_L7.0mm_W2.0mm_P5.00mm
+C, Rect series, Radial, pin pitch=5.00mm, length*width=7*2mm^2, Capacitor
+C Rect series Radial pin pitch 5.00mm length 7mm width 2mm Capacitor
+0
+2
+2
+LibraryGabi
+Hole
+
+
+0
+1
+1
+LibraryGabi
+PerkinElmer_VTL5C
+Axial Vactrol (http://www.qsl.net/wa1ion/vactrol/vactrol.pdf)
+vactrol
+0
+4
+4
+LibraryGabi
+Potentiometer_ACP_CA9-H5_Horizontal
+Potentiometer, horizontal, ACP CA9-H5, http://www.acptechnologies.com/wp-content/uploads/2017/05/02-ACP-CA9-CE9.pdf
+Potentiometer horizontal ACP CA9-H5
+0
+3
+3
+LibraryGabi
+R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
+0
+2
+2
+LibraryGabi
+SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm
+Wuerth, WS-SLTV, 450301014042, https://www.we-online.com/components/products/datasheet/450301014042.pdf
+switch single-pole opposite-side-connection double-throw SPDT würth wurth
+0
+3
+3
+LibraryGabi
+TestPoint_Loop_D2.50mm_Drill1.85mm
+wire loop as test point, loop diameter 2.5mm, hole diameter 1.85mm
+test point wire loop bead
+0
+1
+1
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
